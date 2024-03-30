@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffc2a0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #ff8542;
+  font-family: roboto;
+  font-size: 30px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding-left: 0px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+  .list-container {
+    width: 80%;
+  }
+  .app-container {
+    height: 100vh;
+  }
+}
